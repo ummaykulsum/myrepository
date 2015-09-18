@@ -56,8 +56,5 @@ public class car
         else
             System.out.println("Driving distance exceeds the car's fuelcapacity! ");
     }
-    public void print()
-    {
-        System.out.println(name+"   Manufacturer:"+ manufacturer+"   Driver"+ Driver.getName() +"   Fuel capacity" + fuelCapacity);
-    }
+
 }
